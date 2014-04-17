@@ -14,7 +14,7 @@ module.exports = function(dir, fileExt, cb) {
       }
     }
 
-    return cb(err, chosenFiles);
+    return cb(null, chosenFiles);
   });
 };
 
